@@ -1,8 +1,5 @@
 """飞书卡片推送"""
-import sys
-sys.path.append("/Users/mac/Desktop/claudecode项目")
-
-from feishu_bot import FeishuBot
+from src.feishu_bot import FeishuBot
 from typing import List
 from datetime import datetime
 from src.models.article import Article, ProcessedArticle, NewsCategory
